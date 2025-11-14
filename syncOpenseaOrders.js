@@ -5,7 +5,7 @@
  */
 
 // --- CONFIG ---
-const BACKEND_URL = "https://sənin-app.onrender.com"; 
+const BACKEND_URL = "https://openseayoxlama.onrender.com"; 
 const NFT_CONTRACT_ADDRESS = "0x54a88333F6e7540eA982261301309048aC431eD5";
 const PROXY_CONTRACT_ADDRESS = "0x9656448941C76B79A39BC4ad68f6fb9F01181EC7";
 const PAGE_SIZE = 50;
