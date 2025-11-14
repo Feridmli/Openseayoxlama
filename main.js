@@ -6,7 +6,7 @@ import { Seaport } from "@opensea/seaport-js";
   Xahiş: deploy etdikdən sonra BACKEND_URL-u öz Render URL-inlə əvəz et.
   PROXY_CONTRACT_ADDRESS və NFT_CONTRACT_ADDRESS sən artıq vermisən, saxladım.
 */
-const BACKEND_URL = "https://sənin-app.onrender.com"; // <- burada öz URL qoy
+const BACKEND_URL = "https://openseayoxlama.onrender.com"; // <- burada öz URL qoy
 const PROXY_CONTRACT_ADDRESS = "0x9656448941C76B79A39BC4ad68f6fb9F01181EC7";
 const NFT_CONTRACT_ADDRESS = "0x54a88333F6e7540eA982261301309048aC431eD5";
 const APECHAIN_ID = 33139; // əgər fərqli chain-dirsə uyğunlaşdır
