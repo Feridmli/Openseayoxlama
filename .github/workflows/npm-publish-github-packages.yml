@@ -1,0 +1,25 @@
+name: OpenSea Sync
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"     # Hər 10 dəqiqədə bir avtomatik işləyəcək
+  workflow_dispatch:           # Manuel RUN üçün "Run workflow" düyməsi açılır
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run OpenSea sync script
+        run: node syncOpenseaOrders.js
